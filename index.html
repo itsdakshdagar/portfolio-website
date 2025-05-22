@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>itsdakshdagar</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Playfair Display (serif) and Inter (sans-serif) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="splash-screen">
+        <img src="assets/me/itsdakshdagar_main.png" alt="Daksh Dagar" id="splash-image">
+        <div id="splash-text" class="splash-text">Click to Continue</div>
+    </div>
+
+    <!-- Main Content Area (Initially Hidden) -->
+    <div id="main-content" class="main-content-area visually-hidden">
+        <div class="container">
+            <header class="site-header">
+                <div class="logo">Daksh Dagar</div>
+                <!-- URL for "SIGN ME UP ;)" button -->
+                <a href="https://docs.google.com/document/d/e/2PACX-1vTIT1Sak-mPmFHl84AUffFGOCrL5fX8qEmUvglh6ek5Qv0b1xBx9_Xp3gwkez7ye2CmuOQYcxU2iXpY/pub" class="buy-button">SIGN ME UP ;)</a>
+            </header>
+
+            <main class="grid-container">
+                <!-- Hero Card -->
+                <div class="card card-hero">
+                    <div class="hero-text">
+                        Level up your world through epic <span class="italic">games</span>
+                        and unstoppable digital <span class="italic">branding</span>
+                    </div>
+                    <div class="icon-placeholder-area">
+                        <img src="assets/design/up.png" alt="UP Icon">
+                        <span class="placeholder-icon-text"></span>
+                    </div>
+                </div>
+
+                <!-- Daksh Dagar Photo Card -->
+                <div class="card card-daksh-photo">
+                    <img src="assets/me/itsdakshdagar_tab.png" alt="Daksh Dagar">
+                </div>
+
+                <!-- Projects Card -->
+                <div class="card card-projects">
+                    <div class="project-item-header">
+                        <h2>Projects</h2>
+                    </div>
+
+                    <div class="project-list">
+                        <div class="project-item" data-project="pixel-dash">
+                            <span>Pixel Dash</span>
+                            <span class="arrow-icon">↗</span>
+                        </div>
+                        <div class="project-image-container" id="pixel-dash-image-container">
+                             <!-- URL for Pixel Dash project link -->
+                            <a href="https://drive.google.com/drive/folders/1ZsBk9P4JRD8PfKHJz04MywCClA8yVlzy?usp=sharing" target="_blank">
+                                <img src="assets/projects/pixel_dash.png" alt="Pixel Dash Project">
+                            </a>
+                        </div>
+
+                        <div class="project-item" data-project="snake-game">
+                            <span>Snake Game</span>
+                            <span class="arrow-icon">↗</span>
+                        </div>
+                        <div class="project-image-container" id="snake-game-image-container">
+                            <!-- URL for Snake Game project link -->
+                            <a href="https://snake-game-idd.pages.dev/" target="_blank">
+                                <img src="assets/projects/snake_game.png" alt="Snake Game Project">
+                            </a>
+                        </div>
+
+                        <div class="project-item" data-project="ar-vinyl">
+                            <span>AR Vinyl</span>
+                            <span class="arrow-icon">↗</span>
+                        </div>
+                        <div class="project-image-container" id="ar-vinyl-image-container">
+                            <!-- URL for AR Vinyl project link -->
+                            <a href="https://drive.google.com/drive/folders/1Sby3AXIG45tt4FLOSIWBd9gw-zFik5Au?usp=sharing" target="_blank">
+                                <img src="assets/projects/ar_vinyl.png" alt="AR Vinyl Project">
+                            </a>
+                        </div>
+
+                        <div class="project-item" data-project="future-projects">
+                            <span>Future Projects</span>
+                            <span class="arrow-icon">↗</span>
+                        </div>
+                        <div class="project-image-container" id="future-projects-image-container">
+                            <!-- URL for Future Projects link -->
+                            <!-- <a href="#future-projects-url" target="_blank"> -->
+                                <img src="assets/projects/future_projects.png" alt="Future Projects">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bio Card -->
+                <div class="card card-bio">
+                    <div class="icon-placeholder-area bio-icon">
+                        <img src="assets/design/controller.png" alt="Controller Icon">
+                        <span class="placeholder-icon-text"></span>
+                    </div>
+                    <p>
+                        Daksh Dagar is a driven game developer and multi-venture entrepreneur,
+                        known for merging creativity with technical precision. Based in India,
+                        he leads projects that span game design, web development, and
+                        digital business strategy—crafting experiences and solutions
+                        that leave a lasting impact.
+                    </p>
+                </div>
+
+                <!-- Contact Card -->
+                <div class="card card-contact" id="contact-card">
+                    <div class="contact-initial-state" id="contact-initial">
+                        <p class="contact-prompt">Have some questions?</p>
+                        <div class="contact-main">
+                            <span class="contact-cta">Contact <span class="italic">me</span></span>
+                            <span class="arrow-icon contact-arrow-trigger">↗</span>
+                        </div>
+                    </div>
+                    <div class="contact-expanded-state" id="contact-expanded">
+                        <!-- URL for Personal Contact -->
+                        <a href="mailto:dakshdagar103@gmail.com" class="contact-link-block">
+                            <div class="icon-placeholder-area contact-icon">
+                                <img src="assets/contact/personal.png" class="contact-category-icon">
+                                <span class="placeholder-icon-text"></span>
+                            </div>
+                            <h3>Personal</h3>
+                        </a>
+                        <!-- URL for Professional Contact -->
+                        <a href="mailto:trifigenz@gmail.com" class="contact-link-block">
+                             <div class="icon-placeholder-area contact-icon">
+                                <img src="assets/contact/professional.png" class="contact-category-icon">
+                                <span class="placeholder-icon-text"></span>
+                            </div>
+                            <h3>Professional</h3>
+                        </a>
+                    </div>
+                </div>
+            </main> <!-- Closing tag of main.grid-container -->
+
+            <!-- Footer Social Links Bar -->
+            <footer class="social-links-bar">
+                <!-- GITHUB Link -->
+                <!-- <a href="#your-github-url" target="_blank"> -->
+                    <!-- Replace with your actual icon, e.g., <img src="icons/github.svg" alt="GitHub" class="social-icon"> -->
+                    <!-- <span class="social-icon-placeholder">(GH)</span> GITHUB -->
+                <!-- </a> -->
+                <!-- LINKEDIN Link -->
+                <a href="https://www.linkedin.com/in/dakshdagar" target="_blank">
+                    <img src="assets/socials/linkedin.png" alt="LINKEDIN" class="social-icon">
+                    LINKEDIN
+                </a>
+                <!-- INSTAGRAM Link -->
+                <a href="https://www.instagram.com/itsdakshdagar/" target="_blank">
+                    <img src="assets/socials/instagram.png" alt="INSTAGRAM" class="social-icon">
+                    INSTAGRAM
+                </a>
+                <!-- SPOTIFY Link -->
+                <a href="https://open.spotify.com/user/nqzkayafq148o0km5awykt2k0" target="_blank">
+                    <img src="assets/socials/spotify.png" alt="SPOTIFY" class="social-icon">
+                    SPOTIFY
+                </a>
+            </footer>
+
+        </div> <!-- Closing tag of div.container -->
+    </div> <!-- Closing tag of div#main-content -->
+
+    <script src="script.js"></script>
+</body>
+</html>
